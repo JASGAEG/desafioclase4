@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightslategray;
 }
 
 .App-logo {
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.menu > li {
+  display: inline-flex;
+  padding: 0.1rem ;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  border: 2px none;
+}
+
+.menu > li> a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  -webkit-text-fill-color: rgb(22, 26, 24);
+}
+
+.menu li a:hover{
+  font-style: italic;
+  color: white;
+  border: solid 2px none;
+  background-color: white;
+  transition: all 0.2s linear;
+  border-radius: 4px;
+}
+
+.izquierda {
+  position: relative;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: larger;
+  text-align: left;
+  margin-left: 1rem;
+  padding-top: 1rem;
 }
