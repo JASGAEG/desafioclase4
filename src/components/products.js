@@ -1,0 +1,58 @@
+const products =[
+    {
+        id: 001,
+        name: "Sal",
+        stock: 50,
+        price: 20,
+        description: "Sal de grano de las montañas",
+        image: ["https://www.shutterstock.com/image-photo/sea-salt-wooden-bowl-cooking-spa-215602342"],
+        category: "Especias",
+    },
+    {
+        id: 002,
+        name: "Camaron seco",
+        stock: 100,
+        price: 100,
+        description: "Camaron seco para caldo",
+        image: ["https://www.shutterstock.com/image-photo/small-dried-shrimp-cooking-isolated-on-89233801"],
+        category: "Mar",
+    },
+    {
+        id: 003,
+        name: "Rib Eye",
+        stock: 20,
+        price: 350,
+        description: "Rib eye high choice",
+        image: ["https://www.shutterstock.com/image-photo/two-freshly-cut-boneless-ribeye-steaks-1722297238"],
+        category: "Carne de res",
+    },
+    {
+        id: 004,
+        name: "Zanahoria arcoiris",
+        stock: 30,
+        price: 300,
+        description: "Zanahoria de color",
+        image: ["https://www.shutterstock.com/image-photo/carrots-355095044"],
+        category: "Verdura",
+    },
+    {
+        id: 005,
+        name: "Pulpo 2-4",
+        stock: 20,
+        price: 285,
+        description: "Pulpo medida 2-4",
+        image: ["https://www.shutterstock.com/image-photo/octopus-over-white-background-395701765"],
+        category: "Mar",
+    },
+    {
+        id: 006,
+        name: "Pork belly",
+        stock: 40,
+        price: 185,
+        description: "Panceta de cerdo",
+        image: ["https://www.shutterstock.com/image-photo/pork-belly-on-white-background-1795000873"],
+        category: "Carne de cerdo",
+    },
+]
+
+export default products;
