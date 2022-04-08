@@ -16,7 +16,7 @@ const ItemCount = ()=> {
   
     return(
       <div className='izquierda'>
-                  <button class="btn btn-secondary btn-lg"><h3>Items: {counter}</h3></button>
+                  <button className="btn btn-secondary btn-lg"><h3>Items: {counter}</h3></button>
                   <br />
                   <br />
                   <br />

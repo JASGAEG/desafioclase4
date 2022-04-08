@@ -1,6 +1,6 @@
-const products =[
+const products = [
     {
-        id: 001,
+        id: 10,
         name: "Sal",
         stock: 50,
         price: 20,
@@ -9,7 +9,7 @@ const products =[
         category: "Especias",
     },
     {
-        id: 002,
+        id: 20,
         name: "Camaron seco",
         stock: 100,
         price: 100,
@@ -18,7 +18,7 @@ const products =[
         category: "Mar",
     },
     {
-        id: 003,
+        id: 30,
         name: "Rib Eye",
         stock: 20,
         price: 350,
@@ -27,7 +27,7 @@ const products =[
         category: "Carne de res",
     },
     {
-        id: 004,
+        id: 40,
         name: "Zanahoria arcoiris",
         stock: 30,
         price: 300,
@@ -36,7 +36,7 @@ const products =[
         category: "Verdura",
     },
     {
-        id: 005,
+        id: 50,
         name: "Pulpo 2-4",
         stock: 20,
         price: 285,
@@ -45,7 +45,7 @@ const products =[
         category: "Mar",
     },
     {
-        id: 006,
+        id: 60,
         name: "Pork belly",
         stock: 40,
         price: 185,
@@ -53,6 +53,8 @@ const products =[
         image: ["https://www.shutterstock.com/image-photo/pork-belly-on-white-background-1795000873"],
         category: "Carne de cerdo",
     },
-]
+];
 
-export default products;
+module.exports = {
+    products,
+}
